@@ -1,0 +1,63 @@
+h1{
+    color: orangered;
+    
+    animation-name: example;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+  }
+  #h11{
+      width: 30px;
+      height: 50px;
+      margin-left: 27%;
+  }
+  
+  @keyframes example {
+    from {color: orangered; font-size: 30px;}
+    to {color: hotpink; font-size: 32px;}
+  }
+  /* h1{
+   
+    
+    animation-name: example1;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example1 {
+    from {font-size: 10px;}
+    to {font-size: 13px;}
+  } */
+
+
+.container{
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(111, 119, 119);
+    border: 1px solid rgba(57, 66, 70, 0.795) ;
+    border-radius: 10px;
+    margin-left: 37%;
+   
+}
+.cal{
+   
+    display: inline-block;
+   
+   
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    border: 3px solid rgb(47, 61, 61);
+    font-size: 22px;
+    border-radius: 10px;
+}
+button{
+    font-size: 30px;
+   width: 66px;
+   height: 45px;
+   background-color: aqua;
+   border-radius: 10px;
+}
